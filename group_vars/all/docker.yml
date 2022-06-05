@@ -1,0 +1,11 @@
+---
+
+docker_repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu stable main"
+docker_apt_key_url: "https://download.docker.com/linux/ubuntu/gpg"
+docker_apt_key_keyring: "/usr/share/keyrings/docker-archive-keyring.gpg"
+
+
+docker_packages:
+  - docker-ce
+
+...

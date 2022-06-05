@@ -17,14 +17,21 @@ base_archiving_tools:
 
 base_productivity_tools:
   - libreoffice
+  - zoom
 
 base_system_tools:
+  - clipit
   - fatrace
   - fdupes
   - gnome-calculator
   - gufw
+  - openvpn
   - progress
   - pwgen
+  - apt-transport-https
+  - ca-certificates 
+  - curl
+  - software-properties-common
   #- syncthing
 
 base_system_tools_laptop:
@@ -45,8 +52,8 @@ base_download_tools:
 
 base_developer_tools:
   - 2to3
-  - android-tools-adb
-  - android-tools-fastboot
+#  - android-tools-adb
+#  - android-tools-fastboot
   - ansible
   - ansible-lint
   - awscli
@@ -57,7 +64,6 @@ base_developer_tools:
   - clusterssh
   - colordiff
   - csvkit
-  - curl
   - default-jre-headless
   - dos2unix
   - entr
@@ -78,6 +84,7 @@ base_developer_tools:
   - inotify-tools
   - ipython3
   - jq
+  - kitty
   - kwalify
   - makeself
   - meld
@@ -98,6 +105,7 @@ base_developer_tools:
   - pssh
   #- puppet
   #- puppet-lint
+  - php8.1
   - pv
   - pylint
   - python3-demjson  # provides jsonlint-py3 for json lint
@@ -142,7 +150,7 @@ base_media_tools:
   - mediainfo
   - soundconverter
   - totem
-#  - ubuntu-restricted-extras
+  - ubuntu-restricted-extras
   - vlc
 
 base_permanent_night_light:
