@@ -127,7 +127,6 @@ base_developer_tools:
   - sshpass
   - sshuttle
   - tilix
-  - tldr
   - tmux
   - tmuxp
   - tree
@@ -135,6 +134,9 @@ base_developer_tools:
   - xclip
   - yamllint
   - zeal
+
+base_developer_tools_pip3:
+  - tldr
 
 base_virtualization_tools:
   - virtualbox
